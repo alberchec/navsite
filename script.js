@@ -16,6 +16,6 @@ if(hour >= 12 && minutes > 2){
 
 var filename = "https://www.marinha.mil.br/chm/sites/www.marinha.mil.br.chm/files/\
 cartas-sinoticas/c";
-filename = filename + yearf + monthf + dayf + hourf + ".jpg";
+filename = filename + yearf + monthf + dayf + hourf + ".png";
 
 document.getElementById("carta-sinotica").src = filename;
